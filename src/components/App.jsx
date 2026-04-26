@@ -123,7 +123,7 @@
 
 
 // import { useState } from 'react'
-import WeekBooks from './Booklist';
+
 import Product from './Product';
 
 export default function App() {
@@ -144,7 +144,18 @@ export default function App() {
         name="Tacos With Lime"
         price={10.99}
       />
-      <WeekBooks />
+
+      <p
+      style={{
+        margin: 8,
+        padding: "12px 16px",
+        borderRadius: 4,
+        backgroundColor: "gray",
+        color: "white",
+      }}
+    >
+      Please update your email!
+    </p>
     </div>
   );
 };
